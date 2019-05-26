@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
+import GlobalStyle from './styles/global';
 
-function App() {
-  return <div className='App' />;
+class App extends Component {
+  render() {
+    return <GlobalStyle />;
+  }
 }
-
 export default App;
