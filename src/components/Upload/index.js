@@ -15,6 +15,7 @@ export default class Upload extends Component {
             isDragReject={isDragReject}
           >
             <input {...getInputProps} />
+            Jogue seus arquivos aqui!
           </DropContainer>
         )}
       </Dropzone>
